@@ -10,3 +10,14 @@ write a new log, allowing up to set ro.kernel.qemu=1 and reboot. This will make 
 phone believe its an emulator, and run adbD as root. While the phone will be highly
 unstable, and may not fully boot, you will have a root shell with adb. This gives
 you the ability to patch misc, and downgrade your phone.
+
+Patching MISC
+I have always patched by taking an image of the partition, and taking a hex editor
+to it. Due to sdcards not liking to mount on boot with tacoroot, you will either
+need to go the hex editor route or use a modified version of misc_version.
+
+Sensation Version:
+21:20 <@hyuh> jcase, done...uploading sensation version now.../data/local/tmp
+21:22 <@hyuh> http://www.multiupload.com/9G8Q08R4P0 - cd8f1cbaddb8d74b0479d9e24b615745
+
+Versions for other phones coming soon...
