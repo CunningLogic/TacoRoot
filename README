@@ -1,0 +1,12 @@
+TacoRoot is a root exploit for HTC phones by Justin Case/jcase.
+
+The 'vulnerability' was discovered independantly by Justin Case, and Dan Rosenberg
+in 2011, with Rosenberg finding it first.
+
+How It Works
+HTC left the recovery log world writeable, so all we have todo is delete it, symlink
+it to the non existant file /data/local.prop and reboot to recovery. Recovery will
+write a new log, allowing up to set ro.kernel.qemu=1 and reboot. This will make the
+phone believe its an emulator, and run adbD as root. While the phone will be highly
+unstable, and may not fully boot, you will have a root shell with adb. This gives
+you the ability to patch misc, and downgrade your phone.
