@@ -16,6 +16,10 @@ I have always patched by taking an image of the partition, and taking a hex edit
 to it. Due to sdcards not liking to mount on boot with tacoroot, you will either
 need to go the hex editor route or use a modified version of misc_version.
 
+
+
+These misc_versions below are for EMMC devices only!!!!!
+
 Sensation Version:
 21:20 <@hyuh> jcase, done...uploading sensation version now.../data/local/tmp
 21:22 <@hyuh> http://www.multiupload.com/9G8Q08R4P0 - cd8f1cbaddb8d74b0479d9e24b615745
